@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
